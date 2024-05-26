@@ -10,7 +10,7 @@ const Admin_charts = () => {
   return (
     <div className="">
     <div className="flex flex-col md:flex-row px-[4em]   gap-4">
-      <div className=" rounded-lg flex flex-col shadow-md shadow-neutral-500 w-1/3 bg-white">
+      <div className=" rounded-lg flex flex-col shadow-md shadow-neutral-500 md:w-1/3 bg-white">
         <div className="flex justify-between items-center py-[1em] px-[1.5em]">
           <p className="font-semibold text-neutral-600">Patients</p>
           <FaEllipsisV className=" text-neutral-600" />
@@ -64,7 +64,7 @@ const Admin_charts = () => {
       </div>
 
 
-      <div className="w-2/3 py-[1em] px-[1.5em] flex flex-col bg-white shadow-neutral-400 rounded-lg shadow-lg">
+      <div className="md:w-2/3 py-[1em] px-[1.5em] flex flex-col bg-white shadow-neutral-400 rounded-lg shadow-lg">
         <div className="flex justify-between">
           <div className="">
             <h2 className="text-neutral-600 font-semibold tracking-tight">

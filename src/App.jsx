@@ -3,6 +3,7 @@ import Admin1 from "./Components/Admin1";
 import Admin_analytics from "./Components/Admin_analytics";
 import Admin_analytics2 from "./Components/Admin_analytics2";
 import Admin_charts from "./Components/Admin_charts";
+import Admin_table from "./Components/Admin_table";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
     <Admin_analytics/>
     <Admin_analytics2/>
     <Admin_charts/>
+    <Admin_table/>
     </div>
   )
 }
