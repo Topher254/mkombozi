@@ -6,11 +6,11 @@ import { FaAngleDown, FaOutdent } from "react-icons/fa";
 
 const Admin = () => {
   return (
-    <div className=" bg-white flex py-[1.5em] w-full px-[2em] ">
+    <div className=" bg-white flex py-[1.5em] w-full px-[4em] ">
       <div className="flex justify-between w-full">
         
         <div className="flex items-center">
-          <img src={logo} className="h-10 w-10" />
+          <img src={logo} className="h-10 w-10 hidden"  />
           <FaOutdent className="ml-2 text-neutral-700" size={20} />
         </div>
 <div className="flex">
