@@ -10,8 +10,8 @@ const Admin = () => {
       <div className="flex justify-between w-full">
         
         <div className="flex items-center">
-          <img src={logo} className="h-10 w-10 hidden"  />
-          <FaOutdent className="ml-2 text-neutral-700" size={20} />
+          <img src={logo} className="h-10 w-10 "  />
+          <FaOutdent className="mx-1 p-1 text-neutral-700" size={35} />
         </div>
 <div className="flex">
         <div className="flex items-center space-x-4">

@@ -5,10 +5,10 @@ import { FaArrowCircleUp } from "react-icons/fa";
 const Admin_analytics2 = () => {
   return (
 
-    <div className="my-[2em] mr-[2em] px-10  w-full box-border">
-    <div className="flex space-x-2 mx-[2em]">
+    <div className="my-[2em] px-[1em] md:px-[3em]  w-full box-border">
+    <div className="grid grid-cols-2 gap-4 md:grid-cols-4 space-x-2 px-[1em] ">
       {[1, 2, 3, 4].map((item, index) => (
-        <div key={index} className="flex flex-wrap justify-between border p-2 rounded-lg w-full shadow box-border bg-white">
+        <div key={index} className="flex flex-wrap justify-between border p-4 rounded-lg w-full shadow box-border bg-white">
           <div>
             <p className="flex items-center">
               <span className="text-xl font-semibold">1,546</span>

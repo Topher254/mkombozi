@@ -5,7 +5,7 @@ import { FaAngleDown } from "react-icons/fa";
 
 const Admin_table = () => {
   return (
-    <div className="mx-[4em] py-[1em] px-[1em] my-[1em] shadow-md shadow-neutral-500 rounded-lg bg-white ">
+    <div className="mx-[1em] md:mx-[3em] md:px-[1em] py-[1em] px-[1em] my-[1em] shadow-md shadow-neutral-500 rounded-lg bg-white ">
       <div className="flex justify-between bg-white border p-2 rounded-md">
         <p className="flex justify-between items-center">
           Select table to show

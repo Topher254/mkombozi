@@ -4,14 +4,14 @@ import tv1 from "../assets/tv.jpeg";
 
 const Admin1 = () => {
   return (
-    <div className="my-[2em] mx-[1em]  px-[4em]">
+    <div className="my-[2em] mx-[1em] px-[1em] md:px-[3em]">
    
     <div className="flex w-full justify-between rounded-md  bg-white py-[1em] px-[1em] ">
       
         <div className="p-[1em]">
           <img
             src={tv1}
-            className="h-[100px] min-h-full w-[100px] min-w-full"
+            className="h-[100px] min-h-full w-[100px] min-w-full hidden md:flex"
           />
         </div>
         <div className="pt-8 mx-3">

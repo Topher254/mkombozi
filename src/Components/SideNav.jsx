@@ -6,7 +6,7 @@ import { FaSliders, FaUserDoctor } from "react-icons/fa6";
 
 const SideNav = () => {
   return (
-    <div className="flex flex-col py-[1.5em] px-1  bg-white min-h-full">
+    <div className="md:flex flex-col py-[1.5em] px-1  bg-white min-h-full ">
       <div>
         <img src={logo} className="w-10 h-10 flex justify-center mb-[10em]" />
       </div>

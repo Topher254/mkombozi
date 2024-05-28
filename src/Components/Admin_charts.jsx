@@ -9,7 +9,7 @@ import { GiBullets } from "react-icons/gi";
 const Admin_charts = () => {
   return (
     <div className="">
-    <div className="flex flex-col md:flex-row px-[4em]   gap-4">
+    <div className="flex flex-col md:flex-row md:px-[3em] px-[1em]   gap-4">
       <div className=" rounded-lg flex flex-col shadow-md shadow-neutral-500 md:w-1/3 bg-white">
         <div className="flex justify-between items-center py-[1em] px-[1.5em]">
           <p className="font-semibold text-neutral-600">Patients</p>
@@ -56,7 +56,7 @@ const Admin_charts = () => {
                 ]}
                 width={300}
                 height={200}
-                className="flex flex-shrink"
+                className="flex flex-wrap w-full"
               />
             </div>
           </div>
@@ -115,8 +115,9 @@ const Admin_charts = () => {
               { data: [1, 6, 3] },
               { data: [2, 5, 6] },
             ]}
-            width={500}
+            width={400}
             height={300}
+            className="w-full"
           />
         </div>
       </div>
